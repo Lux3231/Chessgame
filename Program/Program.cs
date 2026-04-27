@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using GameLib;
+
+namespace Prgram;
+
+public class Program {
+
+    public static int Main(){
+        Board Board = new();
+
+        Console.WriteLine(Board.ToString());
+        return 0;
+    }
+}
